@@ -1,0 +1,83 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.coucou {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  background-color: rgba(255, 0, 0, 0.744);
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 40px;
+  height: 300px;
+  width: auto;
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.539);
+}
+  .coucou:hover {
+    background-color: rgba(0, 255, 0, 0.440);
+    color: blue;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif
+  }
+
+  .coucou img {
+    max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas le conteneur */
+    height: auto; /* Maintient l'aspect ratio de l'image */
+    align-self: center; /* Centre l'image si nécessaire */
+    margin-bottom: 20px;
+  }
+  
+  .coucou span {
+    text-align: center; /* Centre le texte si nécessaire */
+    margin: 20px;
+  }
+
+  .image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+
+  .hop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    background: gold;
+    border-radius: 10px;
+    height: 300px;
+    width: auto;
+  }
+
+  .hop span {
+    text-align: center; /* Centre le texte si nécessaire */
+    margin: 20px;
+  }
